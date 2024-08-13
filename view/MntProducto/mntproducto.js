@@ -58,4 +58,17 @@ $(document).ready(function(){
          }).DataTable();
 });
 
+function editar(prod_id) {
+    console.log(prod_id);
+    
+    
+}
+
+function eliminar(prod_id) {
+
+    console.log(prod_id);
+    
+    
+}
+
 init();
