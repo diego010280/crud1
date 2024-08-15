@@ -724,6 +724,8 @@
     </div><!-- br-mainpanel -->
     <!-- ########## END: MAIN PANEL ########## -->
 
+    <?php require_once("modalmantenimiento.php") ?>
+
     <script src="../../public/lib/jquery/jquery.js"></script>
     <script src="../../public/lib/popper.js/popper.js"></script>
     <script src="../../public/lib/bootstrap/bootstrap.js"></script>
@@ -741,7 +743,10 @@
     <script src="../../public/datatables/buttons.html5.min.js"></script>
     <script src="../../public/datatables/buttons.colVis.min.js"></script>
     <script src="../../public/datatables/jszip.min.js"></script>
-    
+    <!-- swit alert cdn -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
     <script type="text/javascript" src="mntproducto.js"></script>
+
   </body>
 </html>
